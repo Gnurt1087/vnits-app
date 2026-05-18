@@ -20,6 +20,7 @@ export default function SolutionDetail() {
       />
 
       <SolutionContent
+        slug="/vnits-app/solutiondetail/"
         title={solution.titledesc}
         overview={solution.overview}
         features={solution.features}
