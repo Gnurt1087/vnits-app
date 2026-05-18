@@ -2,7 +2,6 @@ import { useState } from "react";
 import emailjs from "emailjs-com";
 import toast, { Toaster } from "react-hot-toast";
 import "./ContactPage.css";
-import { section } from "framer-motion/m";
 
 type FormType = {
     name: string;
